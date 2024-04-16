@@ -1,12 +1,13 @@
 local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
 local window = PabloLib:Create(
-"PHNKMOD (LUCKEYBLOCK)", -- Name here.
+"PHNKMOD (LUCKYBLOCK) -THAI LANGUAGE", -- Name here.
 "Enabled", -- If you want draggable set here to "Enabled" if you dont want set to "Disabled".
 "p" -- You can put any keybind here to open close.
 )
 
-local tab1 = window:CreateTab("GIVE ITEM")
 local tab2 = window:CreateTab("THAI / ไทย")
+local tab1 = window:CreateTab("GIVE ITEM")
+
 
 tab1:CreateButton("LUCKYBLOCK", function()
 
